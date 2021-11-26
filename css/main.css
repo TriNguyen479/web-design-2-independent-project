@@ -91,8 +91,92 @@ nav a img {
   text-decoration: none;
   font-size: 20px;
   text-transform: uppercase;
+  font-weight: bold;
   font-style: oblique;
-  color: white;
+  color: black;
+  background-color: white;
   border: 3px solid white;
-  text-shadow: 1px 1px 2px rgb(0 0 0 / 70%);
+}
+
+.introduce {
+  padding: 8rem;
+  background-color: black;
+}
+
+.introduce h3 {
+  color: white;
+  font-size: 25px;
+  text-transform: uppercase;
+  text-align: center;
+}
+
+.introduce p {
+  color: white;
+  font-size: 18px;
+  text-align: center;
+}
+
+.inspiration h3 {
+  margin: 0;
+  padding: 5rem 6rem 0;
+  font-size: 25px;
+  text-transform: uppercase;
+}
+
+.inspiration img {
+  padding-bottom: 1rem;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 3rem 6rem 5rem;
+  display: flex;
+  grid-gap: 2rem;
+}
+
+h4 {
+  margin: 0;
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.inspiration a {
+  text-decoration: none;
+  color: black;
+}
+
+footer {
+  padding: 4rem;
+  background-color: #fde8cd;
+  display: flex;
+  grid-gap: 3rem;
+  justify-content: center;
+}
+
+footer ul {
+  padding: 0;
+  align-items: center;
+}
+
+footer ul li {
+ width: 2rem;
+}
+
+footer ul li:first-child {
+  width: 1rem;
+}
+
+li:hover {
+  transform: scale(1.1);
+}
+
+main div a:hover {
+  background-color: #69c642;
+  color: white;
+  border: none;
+}
+
+@media only screen and (max-width: ) {
+
 }
