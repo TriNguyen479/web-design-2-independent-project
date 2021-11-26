@@ -1,0 +1,98 @@
+html {
+  box-sizing: border-box;
+  -webkit-text-size-adjust: 100%;
+  text-size-adjust: 100%;
+  font-family: "Noto Sans", sans-serif;
+  line-height: 1.5;
+}
+
+*, *::before, *::after {
+  box-sizing: inherit;
+}
+
+body {
+  padding: 0;
+  margin: 0;
+}
+
+img {
+  display: block;
+  width: 100%;
+}
+
+h1 img {
+  padding: 0 0 0 6rem ;
+  width: 15rem;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: 0 0;
+}
+
+nav {
+  padding: 0 6rem 0 0;
+}
+
+nav ul {
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+  display: flex;
+}
+
+nav ul li {
+  padding: 1rem;
+  align-self: center;
+}
+
+nav a {
+  text-decoration: none;
+  font-size: 20px;
+  font-weight: bold;
+  color: black;
+  text-transform: uppercase;
+}
+
+nav a img {
+  width: 1rem;
+}
+
+.banner {
+  position: relative;
+  overflow: hidden;
+}
+
+.banner-headline {
+  padding: 0 0 6rem 6rem;
+  position: absolute;
+  top: 12rem;
+}
+
+.banner-headline h2 {
+  margin: 0;
+  font-size: 65px;
+  text-transform: uppercase;
+  color: white;
+  text-shadow: 1px 1px 2px rgb(0 0 0 / 70%);
+}
+
+.banner-headline p {
+  margin: 0 0 3rem;
+  font-size: 22px;
+  color: white;
+  text-shadow: 1px 1px 2px rgb(0 0 0 / 70%);
+}
+
+.banner-headline a {
+  padding: 1rem;
+  text-decoration: none;
+  font-size: 20px;
+  text-transform: uppercase;
+  font-style: oblique;
+  color: white;
+  border: 3px solid white;
+  text-shadow: 1px 1px 2px rgb(0 0 0 / 70%);
+}
