@@ -22,7 +22,7 @@ img {
 
 .logo {
   left: 0;
-  margin: 16px;
+  margin: 16px 32px;
   padding: 0;
   width: 6rem;
 }
@@ -80,7 +80,7 @@ nav a {
   position: absolute;
   top: 0;
   right: 0;
-  margin-right: 1em;
+  margin-right: 2em;
   height: 100%;
   display: flex;
   align-items: center;
@@ -173,6 +173,7 @@ footer ul {
   justify-content: center;
   grid-gap: 1em;
   align-items: center;
+  list-style-type: none;
 }
 
 footer ul li {
@@ -185,4 +186,62 @@ footer ul li:first-child {
 
 li:hover {
   transform: scale(1.03);
+}
+
+@media only screen and (min-width: 40em) {
+
+  .nav-toggle-label {
+    display: none;
+  }
+
+  header {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+  }
+
+  .logo {
+    margin-left: 1em;
+    width: 5em;
+    grid-column: 1 / 2;
+  }
+
+  nav {
+    all: unset;
+    grid-column: 3 / 4;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    margin-right: 1em;
+  }
+
+  nav ul {
+    display: flex;
+  }
+
+  nav li {
+    margin-left: 1em;
+    margin-bottom: 0;
+  }
+
+  nav a {
+    position: relative;
+    font-size: 1.2em;
+  }
+
+  .shop-list {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 1em;
+  }
+
+}
+
+@media only screen and (min-width: 62em) {
+
+  .shop-list {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: 2em;
+  }
+
 }

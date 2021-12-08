@@ -22,7 +22,7 @@ img {
 
 .logo {
   left: 0;
-  margin: 16px;
+  margin: 16px 32px;
   padding: 0;
   width: 6rem;
 }
@@ -79,7 +79,7 @@ nav a {
   position: absolute;
   top: 0;
   right: 0;
-  margin-right: 1em;
+  margin-right: 2em;
   height: 100%;
   display: flex;
   align-items: center;
@@ -258,7 +258,7 @@ main div a:hover {
   }
 
   .logo {
-    margin-left: 2em;
+    margin-left: 1em;
     width: 5em;
     grid-column: 1 / 2;
   }
@@ -269,7 +269,7 @@ main div a:hover {
     display: flex;
     justify-content: flex-end;
     align-items: center;
-    margin-right: 3em;
+    margin-right: 1em;
   }
 
   nav ul {
