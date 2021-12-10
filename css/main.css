@@ -97,7 +97,7 @@ nav a {
 
 .nav-toggle-label span::after,
 .nav-toggle-label span::before {
-  content:'';
+  content: "";
   position: absolute;
 }
 
@@ -110,7 +110,7 @@ nav a {
 }
 
 .banner-image {
-  background-image: linear-gradient(rgba(0, 0, 0, .3), rgba(0, 0, 0, .3)), url(../images/banner.jpg);
+  background-image: linear-gradient(rgba(0, 0, 0, .3), rgba(0, 0, 0, .3)), url("../images/banner.jpg");
   background-color: pink;
   height: 27em;
   background-position: 65% 40%;
@@ -244,6 +244,11 @@ li:hover {
   transform: scale(1.1);
 }
 
+li a:hover {
+  color: #69c642;
+}
+
+
 .inspiration li:hover {
   transform-origin: center;
   transform: scale(1.03);
@@ -292,15 +297,6 @@ main div a:hover {
     grid-column: 1 / 2;
   }
 
-  nav {
-    all: unset;
-    grid-column: 3 / 4;
-    display: flex;
-    justify-content: flex-end;
-    align-items: center;
-    margin-right: 1em;
-  }
-
   nav ul {
     display: flex;
   }
@@ -316,7 +312,7 @@ main div a:hover {
   }
 
   .banner-image {
-    background-image: linear-gradient(rgba(0, 0, 0, .3), rgba(0, 0, 0, .3)), url(../images/banner.jpg);
+    background-image: linear-gradient(rgba(0, 0, 0, .3), rgba(0, 0, 0, .3)), url("../images/banner.jpg");
     background-color: pink;
     height: 50em;
     background-repeat: no-repeat;
