@@ -168,7 +168,7 @@ footer {
 
 footer ul {
   padding: 1em;
-  margin: 1em;
+  margin: 1em auto 0;
   display: flex;
   justify-content: center;
   grid-gap: 1em;
@@ -178,6 +178,13 @@ footer ul {
 
 footer ul li {
   width: 1.5em;
+}
+
+footer p {
+  margin: 0 auto;
+  padding-bottom: 1em;
+  text-align: center;
+  font-size: .6em;
 }
 
 footer ul li:first-child {

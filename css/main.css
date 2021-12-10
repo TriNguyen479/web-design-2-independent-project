@@ -90,14 +90,14 @@ nav a {
 .nav-toggle-label span::before {
   display: block;
   background: black;
-  height:2px;
+  height: 2px;
   width: 2em;
   position: relative;
 }
 
 .nav-toggle-label span::after,
 .nav-toggle-label span::before {
-  content: '';
+  content:'';
   position: absolute;
 }
 
@@ -110,7 +110,7 @@ nav a {
 }
 
 .banner-image {
-  background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url(../images/banner.jpg);
+  background-image: linear-gradient(rgba(0, 0, 0, .3), rgba(0, 0, 0, .3)), url(../images/banner.jpg);
   background-color: pink;
   height: 27em;
   background-position: 65% 40%;
@@ -133,14 +133,14 @@ nav a {
   line-height: 1;
   text-transform: uppercase;
   color: white;
-  text-shadow: 1px 1px 2px rgb(0 0 0 / 70%);
+  text-shadow: 1px 1px 2px rgba(0, 0, 0, .7);
 }
 
 .banner-headline p {
   margin: .5em 0 3em;
   font-size: 1em;
   color: white;
-  text-shadow: 1px 1px 2px rgb(0 0 0 / 70%);
+  text-shadow: 1px 1px 2px rgba(0, 0, 0, .7);
 }
 
 .banner-headline a {
@@ -179,6 +179,7 @@ nav a {
   position: relative;
   top: 4em;
 }
+
 .inspiration h3 {
   margin: 0;
   font-size: 1.3em;
@@ -216,7 +217,7 @@ footer {
 
 footer ul {
   padding: 1em;
-  margin: 1em;
+  margin: 1em auto 0;
   display: flex;
   justify-content: center;
   grid-gap: 1em;
@@ -229,6 +230,13 @@ footer ul li {
 
 footer ul li:first-child {
   width: .7em;
+}
+
+footer p {
+  margin: 0 auto;
+  padding-bottom: 1em;
+  text-align: center;
+  font-size: .6em;
 }
 
 li:hover {
@@ -285,7 +293,6 @@ main div a:hover {
   }
 
   nav {
-    all: unset;
     grid-column: 3 / 4;
     display: flex;
     justify-content: flex-end;
@@ -308,7 +315,7 @@ main div a:hover {
   }
 
   .banner-image {
-    background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url(../images/banner.jpg);
+    background-image: linear-gradient(rgba(0, 0, 0, .3), rgba(0, 0, 0, .3)), url(../images/banner.jpg);
     background-color: pink;
     height: 50em;
     background-repeat: no-repeat;
