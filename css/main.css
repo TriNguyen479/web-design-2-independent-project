@@ -293,6 +293,7 @@ main div a:hover {
   }
 
   nav {
+    all: unset;
     grid-column: 3 / 4;
     display: flex;
     justify-content: flex-end;
